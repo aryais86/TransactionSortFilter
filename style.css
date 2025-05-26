@@ -1,0 +1,18 @@
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding-left:25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+form{
+    padding-bottom: 10px;
+}
+
+.search{
+    padding-right: 100px;
+}
