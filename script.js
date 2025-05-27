@@ -22,8 +22,3 @@ transactions.forEach((txn) => {
     `;
     tbody.appendChild(row);
 });
-
-console.log(`Total transactions: ${transactions.length}`);
-transactions.forEach((txn, index) => {
-  console.log(`Transaction ${index + 1}:`, txn);
-});
