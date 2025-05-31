@@ -13,14 +13,15 @@
         <button id="search">Search By Name</button>
         <input id="searchItem" value="">
         <button id="search">Search By ID</button>
-        <label for="filters">Sort by :</label>
-        <select name="filters" id="filters">
-            <option value="Amount">Amount (Bubble Sort)</option>
-            <option value="Amount">Amount (Merge Sort)</option>
-            <option value="Date">Date (Bubble Sort)</option>
-            <option value="Date">Date (Merge Sort)</option>
-            <option value="Customer Name">Customer Name (Bubble Sort)</option>
-            <option value="Customer Name">Customer Name (Merge Sort)</option>
+        <label for="sortSelect">Sort by :</label>
+        <select name="sort" id="sortSelect">
+            <option value="1">Choose</option>
+            <option value="amountBubble">Amount (Bubble Sort)</option>
+            <option value="amountMerge">Amount (Merge Sort)</option>
+            <option value="dateBubble">Date (Bubble Sort)</option>
+            <option value="dateMerge">Date (Merge Sort)</option>
+            <option value="nameBubble">Customer Name (Bubble Sort)</option>
+            <option value="nameMerge">Customer Name (Merge Sort)</option>
         </select>
     </form>
     <table id="transactionTable">
